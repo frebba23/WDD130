@@ -36,7 +36,7 @@ header {
 }
 
 nav a:hoover {
-    background-color: cyan;
+    background-color: rgb(39, 219, 219);
     color: rgb(9, 230, 230);
     text-decoration: none;
 }
