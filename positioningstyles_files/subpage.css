@@ -1,0 +1,224 @@
+/*style.css*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.full-container {
+	position: relative;
+	width: 100%;
+	margin: auto;
+	background-color: #dbd8e3;
+}
+
+#header {
+	background-color: #352f44;
+	color: #fff;
+	position: fixed;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 9999;
+}
+
+#logo {
+	display: flex;
+}
+
+#header-img {
+	width: 100px;
+	height: auto;
+}
+
+#logo-name {
+	font-family: Andalus;
+	font-size: 34px;
+	font-style: bold;
+	letter-spacing: 0.5px;
+	padding: 20px 0;
+}
+
+.selected{
+	background-color: gray;
+}
+
+.selected:hover{
+	background-color:gray;
+}
+
+@media screen and (max-width: 765px) {
+	#logo-name {
+		width: 100% !important;
+		margin: auto !important;
+	}
+}
+
+#navlinks {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+@media screen and (max-width: 765px) {
+	#header {
+		width: 100%;
+		margin: auto;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+a {
+	font-family: Andalus;
+	font-size: 20px;
+	color: whitesmoke;
+	text-decoration: none;
+	padding: 38px;
+}
+
+#home {
+	background-image: url(https://www.lendingcrowd.com/wp-content/uploads/2016/03/pablo-12.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 94vh;
+}
+
+#form,
+#tagline {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 10px 10px;
+}
+
+#tagline {
+	font-family: Book Antiqua;
+	padding-top: 200px;
+	font-weight: bold;
+	font-size: 42px;
+	color: #fff;
+}
+
+@media screen and (max-width: 765px) {
+	#tagline {
+		padding-top: 250px;
+		font-size: 28px;
+	}
+}
+
+#email {
+	width: 30%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	border: none;
+}
+
+@media screen and (max-width: 765px) {
+	#email {
+		width: 60%;
+		margin: auto;
+		margin-bottom: 20px;
+	}
+}
+
+#submit {
+	font-family: Comic Sans MS;
+	font-weight: bold;
+	padding: 20px 30px;
+	margin-bottom: 30px;
+	background-color: #352f44;
+	border: none;
+	color: #dbd8e3;
+	cursor: pointer;
+}
+
+#submit:hover {
+	transform: scale(1.1);
+}
+
+#about-us {
+	width: 90%;
+	margin: auto;
+	height: 94vh;
+	padding-top: 10%;
+}
+
+.separator {
+	display: flex;
+	align-items: center;
+}
+
+.separator .line {
+	height: 1px;
+	flex: 1;
+	background-color: #352f44;
+}
+
+.separator h2 {
+	font-family: Andalus;
+	padding: 0 1rem;
+}
+
+#abut {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+@media screen and (max-width: 765px) {
+	#abut {
+		flex-direction: column;
+	}
+	#desc {
+		width: 100%;
+		margin: auto;
+	}
+}
+
+#desc {
+	text-align: center;
+	line-height: 1.6em;
+	padding: 50px;
+	text-indent: none;
+	flex: 1;
+}
+
+#video {
+	margin-top: 20px;
+	flex: 1;
+}
+
+@media screen and (max-width: 765px) {
+	#video {
+		width: 100%;
+		height: 50%;
+	}
+}
+
+footer {
+	width: 100%;
+	padding-right: 3%;
+	background-color: #352f44;
+}
+
+@media screen and (max-width: 765px) {
+	footer {
+		width: 100%;
+	}
+}
+
+#foot {
+	font-family: Andalus;
+	color: whitesmoke;
+	text-align: right;
+	padding: 10px;
+}

@@ -159,17 +159,17 @@ footer .social img {
      padding-top: 15px;
 }
 
-.river-card, .camping-card, .rapids-card {
+.rivers-card, .camping-card, .rapids-card {
      margin-top: 200px;
 }
 
 .card-img {
     width: 100%;
-     border: 10px solid black;
-     transition: tranaform .5s;
-     box-shadow: 5px 5px 10px #6f7364;
+    border: 10px solid black;
+    transition: tranaform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
 
-.river-card {
+.rivers-card {
     grid-column: 2/4;
     grid-row: 2/3;
 }
@@ -254,4 +254,27 @@ footer .social img {
     footer {
         margin-top: 25px;
     }
+}
+
+#about-us {
+	width: 90%;
+	margin: auto;
+	height: 94vh;
+	padding-top: 10%;
+}
+
+.separator {
+	display: flex;
+	align-items: center;
+}
+
+.separator .line {
+	height: 1px;
+	flex: 1;
+	background-color: #352f44;
+}
+
+.separator h2 {
+	font-family: Andalus;
+	padding: 0 1rem;
 }
