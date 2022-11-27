@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Source+Sans+Pro:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
 
 #content {
     max-width: 1600px;
@@ -38,12 +38,37 @@ main section {
 }
 
 body {
-    background-color: rgb(27, 80, 51);
+    background-color: #053b62;
     color: rgba(74, 136, 228, 0.829);
     font-size: 22px;
+    font-family: sans-serif, 'Segoe UI', Tahoma, Verdana;
     padding: 0;
     margin: 0;
 }
+
+.section {
+    background-color: #252121;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 80%;
+    margin: 10rem auto 0 auto;
+}
+
+.section img {
+    height: 400px;
+}
+
+.section h1 {
+    margin: 0;
+    color: greenyellow;
+}
+
+.section p{
+    color: #c0bdbd;
+    margin-right: 15px;
+}
+
 
 header {
     background-color: rgb(94, 202, 77);
@@ -53,8 +78,8 @@ header {
 }
 
 nav a:hover {
-    background-color: rgb(39, 219, 219);
-    color: rgb(190, 228, 228);
+    background-color:#66686a ;
+    color: rgb(219, 164, 164);
     text-decoration: none;
 }
 
@@ -73,13 +98,13 @@ nav a:hover {
 }
 
 #background {
-    background-color: powderblue;
+    background-color: #202122;
     color: rgb(6, 151, 170);
     grid-column: 1/11;
     grid-row: 4/9;
 }
 
-h2 {
+h3 {
     margin: 0;
 }
 
@@ -137,6 +162,11 @@ footer a:hover {
 
 #hero-img {
     width: 100%;
+}
+
+#home_img {
+    justify-self: right;
+    align-self: right;
 }
 
 footer p {
