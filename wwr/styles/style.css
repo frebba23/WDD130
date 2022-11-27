@@ -47,7 +47,7 @@ main section {
 
 body {
     background-color: rgb(224, 238, 250);
-    color: rgb(139, 211, 211);
+    color: rgba(139, 211, 211, 0.829);
     font-size: 22px;
     padding: 0;
     margin: 0;
