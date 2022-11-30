@@ -61,6 +61,9 @@ header {
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
 }
+.logo {
+  width: 80px;
+}
 
 p {
   font-family: var(--paragraph-font);
