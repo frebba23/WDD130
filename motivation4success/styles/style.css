@@ -248,3 +248,28 @@ button:hover, a:hover {
     margin: 5px;
     display: flex;
 }
+
+.deco {
+    display: grid;
+    grid-template-columns: 2/2;
+    background-color: #66686a;
+}
+
+.deco_img {
+    width: 1000px;
+    height: 300px;
+    margin: 5px;
+    display: flex;
+}
+
+.deco p, h4 {
+    font-size: 0.8em;
+    padding-bottom: 15px;
+    color: #000000;
+}
+
+.deco h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: violet;
+    font-size: 1.2em;
+}
