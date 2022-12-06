@@ -38,8 +38,8 @@ main section {
 }
 
 body {
-    background-color: #053b62;
-    color: rgba(74, 136, 228, 0.829);
+    background-color: #171717;
+    color: rgba(223, 231, 231, 0.829);
     font-size: 22px;
     font-family: sans-serif, 'Segoe UI', Tahoma, Verdana;
     padding: 0;
@@ -109,8 +109,8 @@ h3 {
 }
 
 .msg {
-    background-color: rgb(182, 239, 230);
-    color: rgb(5, 89, 57);
+    background-color: rgb(12, 13, 13);
+    color: rgb(228, 237, 234);
     line-height: 1.5em;
     padding: 35px;
     grid-column: 6/10;
@@ -119,10 +119,11 @@ h3 {
 }
 
 .msg h2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Georgia, 'Times New Roman', Times, serif;
 }
 
 .msg p {
+    font-family: serif;
     font-size: 0.8em;
     padding-bottom: 15px;
 }
@@ -189,7 +190,7 @@ footer .social img {
 }
 
 .title {
-    color: grey;
+    color: rgb(238, 243, 248);
     font-size: 18px;
 }
 
@@ -217,7 +218,7 @@ button:hover, a:hover {
 }
 
 #services {
-    background: #66686a;
+    background: #0d0d0d;
     font-family: sans-serif;
     align-items: center;
     justify-content: center;
@@ -249,10 +250,9 @@ button:hover, a:hover {
     display: flex;
 }
 
-.deco {
+.deco_box {
     display: grid;
     grid-template-columns: 2/2;
-    background-color: #66686a;
 }
 
 .deco_img {
@@ -262,14 +262,16 @@ button:hover, a:hover {
     display: flex;
 }
 
-.deco p, h4 {
+.deco h4 {
     font-size: 0.8em;
     padding-bottom: 15px;
-    color: #000000;
+    font-family: serif;
+    color: #edf3f1;
+    background-color: #000000;
 }
 
 .deco h2 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: violet;
     font-size: 1.2em;
 }
