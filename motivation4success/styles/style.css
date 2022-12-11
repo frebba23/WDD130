@@ -38,7 +38,7 @@ main section {
 }
 
 body {
-    background-color: #171717;
+    background-color: #DB3A34;
     color: rgba(223, 231, 231, 0.829);
     font-size: 22px;
     font-family: sans-serif, 'Segoe UI', Tahoma, Verdana;
@@ -84,7 +84,7 @@ nav a:hover {
 }
 
 .apply {
-    background-color: dodgerblue;
+    background-color: #323031;
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
@@ -129,7 +129,7 @@ h3 {
 }
 
 footer {
-    background-color: rgb(112, 222, 72);
+    background-color: #FFC857;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
@@ -218,7 +218,7 @@ button:hover, a:hover {
 }
 
 #services {
-    background: #0d0d0d;
+    background: #0083DF;
     font-family: sans-serif;
     align-items: center;
     justify-content: center;
@@ -252,7 +252,7 @@ button:hover, a:hover {
 
 .deco_box {
     display: grid;
-    grid-template-columns: 2/2;
+    grid-template-columns: auto;
 }
 
 .deco_img {
